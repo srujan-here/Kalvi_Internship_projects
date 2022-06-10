@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade, Inheritance, & Specificity</title>
+    <link rel="stylesheet" href="style/combine.css">
+</head>
+<body>
+    <h1>CSS Variables with the  Cascade, Inheritance, &amp;&nbsp;Specificity</h1>
+<ul class="control">
+  <li>Grey from <code>:root</code> (toggled: teal)</li>
+</ul>
+<ul class="list">
+  <li>Blue: from <code>.list</code> (toggled: orange)</li>
+  <li class="listitem">Red from <code>.listitem</code></li>
+  <li class="listitem">Green from <code>:nth-of-type()</code></li>
+</ul>
+<button id="html">Toggle class on &lt;html&gt;</button>
+<button id="js">Set last &lt;li&gt; as purple</button>
+<p>CSS Variable value goes to the most specific (and last rule when rules with equal specificity exist). How properties typically inherit, however, also still apply.</p>
+
+<p>So even if you have a more specific rule set the value on an ancestor, if there is a rule that sets the value for the given element, the given element's rule will be applied.</p>
+<script src="main.js"></script>
+</body>
+</html>
