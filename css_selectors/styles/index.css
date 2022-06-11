@@ -1,0 +1,29 @@
+/* h1 selector */
+h1 { 
+    color: orange;
+    text-align: center;
+  }
+  
+  header p {
+    color: green;
+  }
+  /* List selectors */
+
+  ul{
+      color:blue
+  }
+  /* id selector */
+  #lione{
+      color:pink;
+  }
+  header p span {
+    color: blue;
+  }
+  /* class selector */
+  .highlight {
+    background-color: yellow;
+  }
+  
+  footer .highlight {
+    background-color: LightGray;
+  }
